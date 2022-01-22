@@ -2,5 +2,7 @@
 @import "./header/header.css";
 @import "./introducao/introducao.css";
 @import "./components/button.css";
+@import "./components/container.css";
 @import "./utilitarios/tipografia/tipografia.css";
 @import "./utilitarios/cores/cores.css";
+@import "./bicicletas/biciletas-lista.css";
