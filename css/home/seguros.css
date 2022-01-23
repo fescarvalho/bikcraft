@@ -84,4 +84,14 @@
   .seguros h2 {
     padding-bottom: 0px;
   }
+  .seguros-item li::before {
+    content: "";
+    width: 13px;
+    height: 9px;
+    background-image: url("../../img/icones/checked.svg");
+    display: inline-block;
+    position: absolute;
+    left: -20px;
+    top: 05px;
+  }
 }
