@@ -1,12 +1,18 @@
 @import "./global/global.css";
-@import "./header/header.css";
-@import "./introducao/introducao.css";
-@import "./tecnologia/tecnologia.css";
-@import "./parceiros/parceiros.css";
-@import "./depoimento/depoimento.css";
+
+/* COMPONENTS */
 @import "./components/button.css";
 @import "./components/link.css";
 @import "./components/container.css";
+
+/* UTILITARIOS */
 @import "./utilitarios/tipografia/tipografia.css";
 @import "./utilitarios/cores/cores.css";
-@import "./bicicletas/biciletas-lista.css";
+
+/* HOME */
+@import "./home/header.css";
+@import "./home/introducao.css";
+@import "./home/tecnologia.css";
+@import "./home/biciletas-lista.css";
+@import "./home/parceiros.css";
+@import "./home/depoimento.css";
