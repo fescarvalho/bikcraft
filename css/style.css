@@ -1,7 +1,9 @@
 @import "./global/global.css";
 @import "./header/header.css";
 @import "./introducao/introducao.css";
+@import "./tecnologia/tecnologia.css";
 @import "./components/button.css";
+@import "./components/link.css";
 @import "./components/container.css";
 @import "./utilitarios/tipografia/tipografia.css";
 @import "./utilitarios/cores/cores.css";
