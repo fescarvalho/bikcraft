@@ -1,4 +1,6 @@
 @import "./global/global.css";
+@import "./global/header.css";
+@import "./global/footer.css";
 
 /* COMPONENTS */
 @import "./components/button.css";
@@ -10,7 +12,6 @@
 @import "./utilitarios/cores/cores.css";
 
 /* HOME */
-@import "./home/header.css";
 @import "./home/introducao.css";
 @import "./home/tecnologia.css";
 @import "./home/biciletas-lista.css";
