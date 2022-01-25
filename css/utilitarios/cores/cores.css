@@ -12,7 +12,7 @@
   --cor-02: #ededed;
   --cor-01: #f7f7f7;
   /* primarias */
-  --cor-p5: #332200;
+  --cor-gradient: linear-gradient(180deg, #ffbf00 0%, #b38936 100%);
   --cor-p4: #664400;
   --cor-p3: #a66f00;
   --cor-p2: #e4a30b;
