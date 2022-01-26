@@ -1,0 +1,24 @@
+#seguros-link {
+  color: var(--cor-p1);
+}
+
+#seguros-link::after {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 100%;
+  height: 2px;
+  background: currentColor;
+  margin-top: 4px;
+  transition: 0.2s;
+}
+
+@media (max-width: 800px) {
+  #seguros-link::after {
+    display: none;
+  }
+
+  #bicicletas::after {
+    display: none;
+  }
+}

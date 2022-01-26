@@ -1,8 +1,8 @@
-#bicicletas {
+#bicicletas-link {
   color: var(--cor-p1);
 }
 
-#bicicletas::after {
+#bicicletas-link::after {
   content: "";
   position: absolute;
   display: block;
@@ -93,7 +93,7 @@
   .bicicletas-bg {
     background: var(--cor-11);
   }
-  #bicicletas::after {
+  #bicicletas-link::after {
     display: none;
   }
 }

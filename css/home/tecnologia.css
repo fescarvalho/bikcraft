@@ -37,7 +37,7 @@
   width: 24px;
 }
 
-.vantagens {
+.vantagens-home {
   display: flex;
   gap: 40px;
 }
@@ -63,7 +63,7 @@
     display: none;
   }
 
-  .vantagens {
+  .vantagens-home {
     flex-direction: column;
   }
 }

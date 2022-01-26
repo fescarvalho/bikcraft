@@ -10,6 +10,10 @@
   align-items: center;
 }
 
+#seguros .seguros {
+  padding: 20px 20px;
+}
+
 .seguros h2 {
   padding-bottom: 40px;
   grid-column: 1/-1;
