@@ -5,10 +5,14 @@
   list-style: none;
   text-decoration: none;
 }
+
 a {
   color: inherit;
 }
 
+h2 {
+  font-size: inherit;
+}
 img {
   max-width: 100%;
   display: block;
