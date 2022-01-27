@@ -6,9 +6,17 @@
   padding-top: 60px;
   padding-bottom: 60px;
 }
+#bicicleta .bikes {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
 #bicicleta .titulo p {
   text-transform: uppercase;
 }
+#bicicleta .bikes h2 {
+  margin-bottom: 60px;
+}
+
 .bicicleta-imagem {
   display: flex;
   flex-wrap: wrap;
@@ -100,6 +108,21 @@
   }
   .bicicleta-conteudo p:first-child {
     margin-bottom: 16px;
+  }
+  #bicicleta .bikes h2 {
+    margin-bottom: 30px;
+  }
+
+  #bicicleta .bikes {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+
+  /* PADDING LISTA */
+  #bicicleta .bicicletas-lista {
+    padding-left: 50px;
+    padding-right: 50px;
+    gap: 100px;
   }
 }
 
