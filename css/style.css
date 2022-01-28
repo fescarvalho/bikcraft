@@ -22,6 +22,7 @@
 @import "./termos/termos.css";
 @import "./bicicletas/bicicletas.css";
 @import "./bicicleta/bicicleta.css";
+@import "./bicicleta/seguro.css";
 @import "./bicicleta/escolha.css";
 @import "./seguros/seguros.css";
 @import "./seguros/vantagens.css";
