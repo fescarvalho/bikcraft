@@ -23,6 +23,7 @@
   gap: 40px;
   padding-top: 60px;
   padding-bottom: 60px;
+  background: url("../../img/dec/top-right-s.svg") no-repeat top 40px right 40px;
 }
 
 .bicicletas-imagem {
@@ -130,5 +131,9 @@
     border-radius: 4px 0 0 4px;
     padding: 5px;
     position: absolute;
+  }
+
+  .titulo {
+    background: initial;
   }
 }

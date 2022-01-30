@@ -10,7 +10,10 @@
   background-color: var(--cor-11);
   padding: 60px 0px;
 }
-
+.titulo {
+  padding: 20px;
+  background: url("../../img/dec/top-right-s.svg") no-repeat top 20px right 50px;
+}
 .titulo p {
   margin-bottom: 4px;
 }

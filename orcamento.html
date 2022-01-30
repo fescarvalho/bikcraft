@@ -7,6 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="Bicicletas elétricas de alta precisão e qualidade,  feitas sob medida para o cliente. 
    Explore o mundo na sua velocidade com a Bikcraft.">
+  <link rel="preload" href="./css/style.css" as="style">
   <link rel="stylesheet" href="./css/style.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -146,7 +147,12 @@
         </div>
         <div>
           <label for="estado">Estado</label>
-          <input type="text" id="estado" name="estado">
+          <select type="select" id="estado" name="estado">
+            <option value=""></option>
+            <option value="rio de janeiro">Rio de Janeiro</option>
+            <option value="são paulo">São Paulo </option>
+            <option value="distrito federal">Distrito Federal</option>
+          </select>
         </div>
         <div class="label-termos">
           <input type="checkbox" id="termos" name="termos">

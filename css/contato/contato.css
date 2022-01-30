@@ -28,13 +28,15 @@
 }
 
 .contato-dados {
-  background: var(--cor-12);
   border-radius: 4px 0 0px 4px;
+  background: var(--cor-12) url("../../img/dec/bottom-left-s.svg") no-repeat
+    bottom 40px left 40px;
 }
 
 .contato-formulario {
-  background: var(--cor-01);
   border-radius: 0px 4px 4px 0px;
+  background: var(--cor-01) url("../../img/dec/bottom-right-s.svg") no-repeat
+    bottom 40px right 40px;
 }
 
 .contato-dados h2 {
@@ -44,7 +46,6 @@
 .contato-endereço {
   margin-bottom: 30px;
   padding-left: 28px;
-  background: url("../../img/icones/local.svg") no-repeat 0 2px;
 }
 
 .contato-endereço p {
@@ -84,9 +85,11 @@
   }
 
   .contato-dados {
+    background: var(--cor-12);
     border-radius: 4px 4px 0px 0px;
   }
   .contato-formulario {
+    background: var(--cor-01);
     border-radius: 0px 0px 4px 4px;
   }
   .contato-dados h2 {
