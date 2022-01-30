@@ -20,6 +20,7 @@
 @import "./home/depoimento.css";
 @import "./home/seguros.css";
 
+@import "./orcamento/orcamento.css";
 @import "./contato/lojas.css";
 @import "./contato/contato.css";
 @import "./termos/termos.css";

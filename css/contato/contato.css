@@ -99,4 +99,8 @@
   .contato-redes {
     margin-top: 32px;
   }
+
+  #contato-link::after {
+    display: none;
+  }
 }
