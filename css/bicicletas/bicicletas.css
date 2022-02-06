@@ -1,18 +1,3 @@
-#bicicletas-link {
-  color: var(--cor-p1);
-}
-
-#bicicletas-link::after {
-  content: "";
-  position: absolute;
-  display: block;
-  width: 100%;
-  height: 2px;
-  background: currentColor;
-  margin-top: 4px;
-  transition: 0.2s;
-}
-
 .bicicletas-bg {
   background: linear-gradient(to right, var(--cor-01) 33%, var(--cor-11) 0);
 }
@@ -93,9 +78,6 @@
   }
   .bicicletas-bg {
     background: var(--cor-11);
-  }
-  #bicicletas-link::after {
-    display: none;
   }
 }
 
