@@ -15,34 +15,47 @@
 .perguntas dl > div:nth-child(odd) {
   background: var(--cor-lista);
 }
-.perguntas dt {
+.perguntas button {
   display: grid;
   grid-template-columns: auto 1fr auto;
   align-items: center;
   gap: 12px;
-
+  width: 100%;
+  background: none;
+  text-align: left;
+  border: none;
   cursor: pointer;
   transition: transform 0.3s;
 }
 
-.perguntas dt::before {
+.perguntas button::before {
   content: "";
   width: 12px;
   height: 8px;
   background: var(--cor-p1);
   display: inline-block;
 }
-.perguntas dt::after {
+.perguntas button::after {
   content: "";
   width: 14px;
   height: 6px;
   transform: rotate(180deg);
   display: inline-block;
   background-image: url("../../img/icones/seta-abrir.svg");
+  transition: 0.3s;
 }
-.perguntas dt:hover::after {
+.perguntas button:hover::after,
+.perguntas button[aria-expanded="true"]::after {
   transform: rotate(0deg);
 }
+
+.perguntas dd {
+  display: none;
+}
+.perguntas dd.ativo {
+  display: block;
+}
+
 .perguntas dd {
   margin-left: 22px;
   margin-top: 18px;
