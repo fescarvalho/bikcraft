@@ -22,9 +22,11 @@ function activeParam(param) {
   }
   console.log(param);
 }
+
 params.forEach(activeParam);
 
-//perguntas frequentes para
+//perguntas frequentes
+
 const perguntas = document.querySelectorAll(".perguntas button");
 
 function mostrarResposta(event) {
@@ -33,15 +35,35 @@ function mostrarResposta(event) {
   const resposta = document.getElementById(controls);
 
   resposta.classList.toggle("ativo");
-  const ativa = resposta.classList.contains("ativo");
 
-  pergunta.setAttribute("aria-expanded", ativa);
+  const ativo = resposta.classList.contains("ativo");
+  pergunta.setAttribute("aria-expanded", ativo);
 }
 
-function pegarPergunta(pergunta) {
+function ativarPergunta(pergunta) {
   pergunta.addEventListener("click", mostrarResposta);
 }
 
-perguntas.forEach(pegarPergunta);
+perguntas.forEach(ativarPergunta);
 
-console.log(perguntas);
+//galeria imagems
+
+const galeria = document.querySelectorAll(".bicicleta-imagem img");
+const galeriaContainer = document.querySelector(".bicicleta-imagem");
+
+function trocarImagem(event) {
+  const imagem = event.currentTarget;
+  const media = matchMedia("(min-width: 1000px)").matches;
+
+  if (media) {
+    galeriaContainer.prepend(imagem);
+  } else {
+    console.log("hellow word");
+  }
+}
+
+function imagemClicada(img) {
+  img.addEventListener("click", trocarImagem);
+}
+
+galeria.forEach(imagemClicada);
