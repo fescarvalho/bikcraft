@@ -11,6 +11,7 @@
 @import "./utilitarios/tipografia/tipografia.css";
 @import "./utilitarios/cores/cores.css";
 @import "./utilitarios/formulario/formulario.css";
+@import "./utilitarios/plugins/plugins.css";
 
 /* HOME */
 @import "./home/introducao.css";

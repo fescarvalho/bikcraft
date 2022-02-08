@@ -7,12 +7,14 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="Bicicletas elétricas de alta precisão e qualidade,  feitas sob medida para o cliente. 
    Explore o mundo na sua velocidade com a Bikcraft.">
-  <link rel="preload" href="./css/style.css" as="style">
-  <link rel="stylesheet" href="./css/style.css">
+  <link rel="preload" href="./css/style.min.css" as="style">
+  <link rel="icon" href="./favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="./css/style.min.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,900&family=Poppins:wght@400;600&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
   <title>Seguros | Bikcraft</title>
+  <script>document.documentElement.classList.add("js")</script>
 </head>
 
 <body id="seguros">
@@ -35,8 +37,8 @@
   <main>
     <div class="titulo-bg">
       <div class="titulo container">
-        <p class="font-2-l-b cor-05">escolha o seu seguro</p>
-        <h1 class="font-1-xxl cor-01">você seguro
+        <p class="font-2-l-b cor-05 fadeInLeft" data-anime="400">escolha o seu seguro</p>
+        <h1 class="font-1-xxl cor-01 fadeInLeft" data-anime="500">você seguro
           <span class="cor-p1">.</span>
         </h1>
       </div>
@@ -44,7 +46,7 @@
     <article class="seguros-bg">
       <div class="seguros container">
 
-        <div class="seguros-item">
+        <div class="seguros-item fadeInLeft" data-anime="800">
           <h3 class="font-1-xl cor-08">PRATA</h3>
           <span class="font-1-xl cor-01">R$ 199 <span class="mensal"> mensal</span></span>
           <ul class="font-2-m cor-01">
@@ -55,7 +57,7 @@
           </ul>
           <a class="button secundario" href="./orcamento.html?tipo=seguro&produto=prata">Inscreva-se</a>
         </div>
-        <div class="seguros-item">
+        <div class="seguros-item fadeInRight" data-anime="800">
           <h3 class="font-1-xl cor-p1">OURO</h3>
           <span class="font-1-xl cor-01">R$ 499 <span class="mensal"> mensal</span></span>
           <ul class="font-2-m cor-01">
@@ -187,7 +189,7 @@
         <p class="copy font-2-m cor-09">BIkcraft © alguns direitos reservados.</p>
       </div>
     </footer>
-
+    <script src="./js/plugins/simple-anime.js"></script>
     <script src="./js/script.js"></script>
 </body>
 

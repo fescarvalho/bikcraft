@@ -67,3 +67,9 @@ function imagemClicada(img) {
 }
 
 galeria.forEach(imagemClicada);
+
+//animacao
+
+if (window.SimpleAnime) {
+  new SimpleAnime();
+}
