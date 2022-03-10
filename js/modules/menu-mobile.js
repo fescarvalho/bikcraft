@@ -7,6 +7,7 @@ export default function initMeuMobile() {
     menuMobile.classList.toggle("active");
     btnMobile.classList.toggle("active");
   }
+
   function clique(e) {
     const local = e.target;
     if (local !== btnMobile) {
@@ -15,6 +16,6 @@ export default function initMeuMobile() {
     }
   }
 
-  html.addEventListener("click", clique);
-  btnMobile.addEventListener("click", showMenu);
+  html.addEventListener("touchstart", clique);
+  btnMobile.addEventListener("touchstart", showMenu);
 }
