@@ -1,0 +1,72 @@
+[data-menu="mobile"] {
+  display: none;
+}
+
+@media (max-width: 700px) {
+  .js [data-menu="mobile"] {
+    display: flex;
+    padding: 10px 15px;
+    border: 2px solid var(--cor-gradient);
+    color: var(--cor-02);
+    background: var(--cor-11);
+    border-radius: 4px;
+    text-transform: uppercase;
+    align-items: center;
+    margin: 10px;
+    position: relative;
+    z-index: 200;
+  }
+  .js [data-menu="mobile"]::before {
+    content: "";
+    display: inline-block;
+    background: var(--cor-02);
+    height: 2px;
+    width: 12px;
+    box-shadow: 0 5px var(--cor-02), 0 -5px var(--cor-02);
+    margin-right: 6px;
+    transition: transform 0.3s;
+  }
+
+  .js [data-menu="mobile"].active::before {
+    transform: rotate(90deg);
+  }
+
+  @keyframes showModal {
+    from {
+      opacity: 0;
+      transform: translate3d(0, -100px, 0);
+    }
+    to {
+      opacity: 1;
+      transform: translate3d(0, 0, 0);
+    }
+  }
+  .header-menu {
+    display: none;
+    position: absolute;
+    top: 0;
+    background: var(--cor-02);
+    padding: 100px 20px 0 0;
+    box-shadow: 2px 2px 2px 0 rgba(0, 0, 0, 0.2);
+  }
+  .header-menu.active {
+    display: block;
+    position: absolute;
+    top: 0;
+    background: var(--cor-02);
+    padding: 100px 0px 0 0;
+    box-shadow: 2px 2px 2px 0 rgba(0, 0, 0, 0.2);
+    animation: showModal 0.3s forwards;
+  }
+
+  .header-menu a {
+    background: var(--cor-02);
+    color: var(--cor-11);
+    margin-bottom: 20px;
+    font-weight: bold;
+  }
+  .header-menu a::hover {
+    background: var(--cor-11);
+    color: var(--cor-02);
+  }
+}
